@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anbu's web</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="ball"></div>
+    <center>
+        <header>Weather App</header>
+        <div class="container" id="blured">
+            <div class="search-box" id="search-img">
+            <input  placeholder="Enter a city name"  id="city-name" >
+            <button onclick="getweather()" enabled><img src="search.png" style="height: 30px;width: 40px;" alt="" id="btn"></button>
+             </div>
+             <div class="weather-condition">
+                <div class="welcome" id="visit">
+                <h3>WELCOME TO MY WEATHER APP</h3>
+                 <marquee behavior="alternate" direction="right"><div class="mover"></div></marquee>
+                </div>
+
+               
+                
+                <div id="title">
+
+                </div>
+            <div id="main-img-temp">
+                <div id="img-cont">
+                   <img src="https://em-content.zobj.net/source/whatsapp/401/cloud_2601-fe0f.png" alt="" height="160px" class="img-content" id="cloudy">
+                   <img src="https://em-content.zobj.net/source/google/387/sun-behind-cloud_26c5.png" alt="" height="160px" class="img-content" id="cloudysun">
+                   <img src="https://em-content.zobj.net/source/samsung/395/snowflake_2744-fe0f.png" alt="" height="160px" class="img-content" id="snow">
+                   <img src="https://em-content.zobj.net/source/facebook/355/cloud-with-lightning_1f329-fe0f.png" alt="" height="160px" class="img-content" id="thunder">
+                   <img src="https://em-content.zobj.net/source/whatsapp/401/cloud-with-rain_1f327-fe0f.png" alt="" height="160px" class="img-content" id="rain">
+                   <img src="https://em-content.zobj.net/source/apple/391/sun_2600-fe0f.png" alt="" height="160px" class="img-content" id="sun">
+                   <img src="https://em-content.zobj.net/source/lg/307/fog_1f32b-fe0f.png" alt="" height="160px" class="img-content" id="haze">
+                </div>
+                <div id="temp-cont">
+
+                </div>
+            </div>
+                <div id="wind-press">
+                    <div id="weather-cont">
+
+                    </div>
+                    <div id="wind-press-img" >
+                        <img src="https://cdn-icons-png.flaticon.com/128/2412/2412646.png" alt="" height="60px">
+                        <img src="https://cdn-icons-png.flaticon.com/128/7334/7334191.png" alt="" height="50px">
+                    </div>
+                    <div id="wind-press-cont">
+                        
+                    </div>
+
+                </div>
+               
+            </div>
+            <div  id="exit">
+                <h2>Refresh page before Retry</h2>
+            </div>
+        </div>
+        
+
+    </center>
+   <script src="script1.js"></script>
+    
+</body>
+</html>
